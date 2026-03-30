@@ -708,7 +708,7 @@ function nextTart() {
   document.getElementById('tart-frosting').style.background = t.frostColor;
   renderSprinkles(t.sprinkleColors);
   document.getElementById('tart-blurb').textContent = t.blurb;
-  document.getElementById('tart-counter').textContent = `Specimen ${tartIndex+1} of ${tarts.length}`;
+  document.getElementById('tart-counter').textContent = `Specimen ${tartIndex+1}`;
 }
 
 function renderRandomTart() {
@@ -720,7 +720,7 @@ function renderRandomTart() {
     document.getElementById('tart-frosting').style.background = t.frostColor;
     renderSprinkles(t.sprinkleColors);
     document.getElementById('tart-blurb').textContent = t.blurb;
-    document.getElementById('tart-counter').textContent = `Specimen ${tartIndex+1} of ${tarts.length}`;
+    document.getElementById('tart-counter').textContent = `Specimen ${tartIndex+1}`;
   }
 }
 
